@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="TODO"
+            android:paddingBottom="20dp"
+            tools:ignore="ContentDescription,ImageContrastCheck"
+            tools:src="@drawable/dice_1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="TODO"
+            android:paddingBottom="20dp"
+            tools:ignore="ContentDescription,ImageContrastCheck"
+            tools:src="@drawable/dice_1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="219dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/roll"
+        android:textSize="14sp"
+        tools:ignore="VisualLintButtonSize"
+        tools:text="Roll" />
+</LinearLayout>
